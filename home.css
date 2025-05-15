@@ -1,0 +1,135 @@
+
+body, h1, h2, h3, p, ul, li, a, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+.heading {
+    background: linear-gradient(135deg, #007bff, #6610f2);
+    color: #fff;
+    padding: 1rem 2rem;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.heading h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.nav_items ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.nav_items a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav_items a:hover {
+    color: #ffd700;
+}
+
+
+main {
+    padding: 2rem;
+}
+
+.intro {
+    background: linear-gradient(135deg, #e3f2fd, #fff);
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 2rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.intro h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+
+.login {
+    background: #f1f3f4;
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #444;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+button {
+    font-size: 1rem;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button.primary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+button.primary:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+button.secondary {
+    background-color: #6610f2;
+    color: #fff;
+}
+
+button.secondary:hover {
+    background-color: #450da7;
+    transform: scale(1.05);
+}
+
+
+footer {
+    background: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    font-size: 0.9rem;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="all.css">
+</head>
+<body onload="readAll()">
+    <header class="heading">
+        <h1 >File Management System</h1>
+
+        <nav class="nav_items">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="image.html">images</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="documents.html">Documents</a></li>
+            </ul>
+        </nav>
+
+
+    </header>
+    
+
+    
+    <main>
+        <h2>Upload your images here</h2>
+           <div class="container">
+        <div class="form_container">
+
+            
+            <form class="create_form" action="">
+                <input type="text" class="name" placeholder="Enter name">
+                <input type="file" class="file">
+                <button type="button" onclick="add()">Create</button>
+            </form>
+            
+            <form class="update_form" action="">
+                
+                
+                <input type="text" hidden class="id">
+                <input type="text" class="uname">
+                <input type="file" class="ufile">
+                <button type="button" onclick="update()">Update</button>
+            </form>
+            
+            <div class="add_div">
+                <button onclick="create()">Add+</button>
+            </div>
+            
+            <table>
+                <thead>
+                <th>Name</th>
+                <th>File</th>
+                <th>Action</th>
+                </thead>
+                <tbody class="data_table">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+</main>
+<footer>
+    <p>&copy; 2025 File Management System. All rights reserved.</p>
+</footer>
+<script src="all.js"></script>
+
+</body>
+</html>
